@@ -2,3 +2,5 @@ data
 model
 .ipynb_checkpoints
 subset
+data.zip
+selection.csv
