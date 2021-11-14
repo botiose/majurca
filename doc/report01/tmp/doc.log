@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.9.25)  25 SEP 2021 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.9.25)  30 SEP 2021 13:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -934,12 +934,12 @@ LaTeX Info: Redefining \nameref on input line 42.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<image/model01.png, id=28, 883.3pt x 467.7475pt>
+<image/model01.png, id=32, 883.3pt x 467.7475pt>
 File: image/model01.png Graphic file (type png)
 <use image/model01.png>
 Package pdftex.def Info: image/model01.png  used on input line 133.
 (pdftex.def)             Requested size: 370.98347pt x 196.45259pt.
-<image/model02.png, id=30, 883.3pt x 467.7475pt>
+<image/model02.png, id=34, 883.3pt x 467.7475pt>
 File: image/model02.png Graphic file (type png)
 <use image/model02.png>
 Package pdftex.def Info: image/model02.png  used on input line 184.
@@ -959,26 +959,40 @@ been already used, duplicate ignored
                    \relax 
 l.186 \end{figure}
                    [1 <./image/model01.png>]
-<image/top-dim.png, id=36, 301.125pt x 200.75pt>
+<image/top-dim.png, id=40, 301.125pt x 200.75pt>
 File: image/top-dim.png Graphic file (type png)
 <use image/top-dim.png>
 Package pdftex.def Info: image/top-dim.png  used on input line 201.
 (pdftex.def)             Requested size: 114.42868pt x 76.28578pt.
-<image/top-lit.png, id=37, 301.125pt x 200.75pt>
+<image/top-lit.png, id=41, 301.125pt x 200.75pt>
 File: image/top-lit.png Graphic file (type png)
 <use image/top-lit.png>
 Package pdftex.def Info: image/top-lit.png  used on input line 202.
 (pdftex.def)             Requested size: 114.42868pt x 76.28578pt.
-<image/side-vertical.png, id=38, 301.125pt x 200.75pt>
+<image/side-vertical.png, id=42, 301.125pt x 200.75pt>
 File: image/side-vertical.png Graphic file (type png)
 <use image/side-vertical.png>
 Package pdftex.def Info: image/side-vertical.png  used on input line 203.
 (pdftex.def)             Requested size: 114.42868pt x 76.28578pt.
-<image/side-horizontal.png, id=39, 301.125pt x 200.75pt>
+<image/side-horizontal.png, id=43, 301.125pt x 200.75pt>
 File: image/side-horizontal.png Graphic file (type png)
 <use image/side-horizontal.png>
 Package pdftex.def Info: image/side-horizontal.png  used on input line 204.
 (pdftex.def)             Requested size: 114.42868pt x 76.28578pt.
+<image/architecture.png, id=44, 518.93875pt x 891.33pt>
+File: image/architecture.png Graphic file (type png)
+<use image/architecture.png>
+Package pdftex.def Info: image/architecture.png  used on input line 238.
+(pdftex.def)             Requested size: 259.46873pt x 445.66391pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--240
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -990,15 +1004,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2 <./image/model02.png> <./image/top-dim.png (PNG copy)> <./image/top-lit.png 
 (PNG copy)> <./image/side-vertical.png (PNG copy)> <./image/side-horizontal.png
- (PNG copy)>] (tmp/doc.aux)
+ (PNG copy)>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 <./image/architecture.png>] (tmp/doc.aux)
 Package rerunfilecheck Info: File `doc.out' has not changed.
-(rerunfilecheck)             Checksum: 16F0D8A22A1F1CAB81A13C29CCCCCE73;152.
+(rerunfilecheck)             Checksum: 580A34145D48EBD9B86FF16715111AAB;211.
  ) 
 Here is how much of TeX's memory you used:
- 23107 strings out of 481176
- 423151 string characters out of 5914226
+ 23118 strings out of 481176
+ 423338 string characters out of 5914226
  790356 words of memory out of 5000000
- 39629 multiletter control sequences out of 15000+600000
+ 39636 multiletter control sequences out of 15000+600000
  405854 words of font info for 35 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  86i,11n,88p,517b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1006,10 +1029,10 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on tmp/doc.pdf (3 pages, 445280 bytes).
+Output written on tmp/doc.pdf (4 pages, 519536 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

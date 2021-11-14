@@ -219,4 +219,23 @@ premièrement testé le précédent modèle VGG16 sur un sous-ensemble d'images
 prises sur le côté et horizontalement et avons réussi à obtenir une précision de
 validation moyenne de 89\%. Et à ce stade, nous testons actuellement plusieurs
 méthodes afin d'exploiter le plus de données possible de l'ensemble de données.
+\section{Final model architecture}
+%% As for the time of this report this current model architecture we are using is
+%% that of a modified VGG16, with four added layers. Two of these layers are Dense
+%% layers, and the other two are a layer of Pooling and one of Dropout (as
+%% previously detailed). The complete architecture is the following, where Conv2D
+%% refers to Convolutional layers and MaxPooling2D and GlobalAveragePooling2D refer to Pooling
+%% layers.
+Au moment de la rédaction de ce rapport, l'architecture actuelle du modèle que
+nous utilisons est celle d'un VGG16 modifié, avec quatre couches
+supplémentaires. Deux de ces couches sont des couches Dense, et les deux autres
+sont une couche de Pooling et une de Dropout (comme détaillé
+précédemment). L'architecture complète est la suivante, où Conv2D fait référence
+aux couches convolutionnelles et MaxPooling2D et GlobalAveragePooling2D font
+référence aux couches de pooling.\\\\
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{image/architecture.png}
+  \caption{Modified VGG16 Model}
+\end{figure}
 \end{document}
