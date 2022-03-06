@@ -1,10 +1,10 @@
 * Plastic type deep learning image classification
 ** The Notebooks
-   The MAJURCA company is developing an automated recycling machine. When plastic
-   waste is given to said machine, it will attempt to recognize the type of plastic
-   by first taking two picture of it, and then feeding said pictures to a deep
-   learning image classification model, pretrained for the task of plastic
-   recognition.
+   The MAJURCA company is developing an automated recycling machine. When
+   plastic waste is given to said machine, it will attempt to recognize the type
+   of plastic by first taking two picture of it, and then feeding said pictures
+   to a deep learning image classification model, pretrained for the task of
+   plastic recognition.
 
    The task of the team I was part of consisted in exploring different image
    classification models to accomplish the task of plastic type
@@ -17,14 +17,16 @@
 
    - majurca.ipynb: This is the notebook in which the CNN models where trained.
 
-   - load-data.ipynb: Used to download the image dataset from the Azure Database.
+   - load-data.ipynb: Used to download the image dataset from the Azure
+     Database.
 
    - extract.ipynb: Used to index images for Content-Based image retreival.
 
-   - query.ipynb: Used to cleanup the dataset with Content-Based image retreival.
+   - query.ipynb: Used to cleanup the dataset with Content-Based image
+     retrieval.
 
-   - visualize.ipynb: Used to visualize the learning curves for some of the tested
-     models
+   - visualize.ipynb: Used to visualize the learning curves for some of the
+     tested models
 ** Reports
    Reports detailing the work that was performed for the given task in both
    English and French can be found in:
@@ -32,3 +34,5 @@
    - English: https://github.com/botiose/majurca/blob/master/doc/english.pdf
 
    - French: https://github.com/botiose/majurca/blob/master/doc/french.pdf
+
+   As instructed the first page for the French report is in English.
