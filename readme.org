@@ -1,5 +1,4 @@
 * Plastic type deep learning image classification
-** The Notebooks
    The MAJURCA company is developing an automated recycling machine. When
    plastic waste is given to said machine, it will attempt to recognize the type
    of plastic by first taking two picture of it, and then feeding said pictures
@@ -11,7 +10,7 @@
    recognition. Several CNNs (Convolution Neural Networks) where tested on the
    64,000 image dataset that was provided. Some examples are VGG16, InceptionV3,
    ResNet50, EfficientNetB0, Xception. As well as YOLOv3 for object detection.
-
+** The Notebooks
    This repo shows some of my work on this task. Each of the jupyter notebooks
    presented here have the following description:
 
